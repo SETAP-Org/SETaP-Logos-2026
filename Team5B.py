@@ -11,9 +11,13 @@ def square(turtle, side_length):
     turtle.forward(side_length)
     turtle.left(90)
     turtle.forward(side_length)
+    turtle.left(90)
+    turtle.forward(side_length)
+    turtle.left(90)
+    turtle.forward(side_length)
     turtle.penup()
     turtle.pendown()
-    turtle.forward(side_length)
+    turtle.forward(side_length) #silly
     turtle.penup()
 
 if __name__ == "__main__": # This block will only run if this file is executed directly
